@@ -77,7 +77,7 @@ body {
 }
 
 .divider-1 {
-  height: 1px;
+  height: 2px;
   background: linear-gradient(
     270deg,
     hsla(var(--hue), 36%, 57%, 1),
@@ -86,7 +86,7 @@ body {
 }
 
 .divider-2 {
-  height: 1px;
+  height: 2px;
   background: linear-gradient(
     270deg,
     hsla(var(--hue), 65%, 88%, 0.34),
@@ -345,6 +345,9 @@ nav.show .icon-close {
   /*nao tem alinhamento ao centro*/
 }
 /* --------Services ----------*/
+.container {
+  margin-bottom: 0%;
+}
 .cards.grid {
   gap: 1.5rem;
 }
